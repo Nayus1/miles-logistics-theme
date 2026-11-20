@@ -1,0 +1,16 @@
+/* About Us page */
+
+.about-hero { position: relative; isolation: isolate; display: flex; align-items: center; min-height: 40rem; padding-block: 4rem; color: #fff; }
+.about-hero__bg { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.about-hero::before { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, rgb(11 24 41 / .88), rgb(11 24 41 / .6) 55%, rgb(11 24 41 / .2)); }
+.about-hero__copy { max-width: 48rem; }
+.about-hero h1 { color: #fff; }
+.about-hero p:not(.tag) { color: #fff; }
+
+.approach > p:not(.tag) { color: var(--muted); }
+
+.pillars { display: grid; gap: 1.25rem; margin-top: clamp(3rem, 6vw, 5rem); }
+@media (min-width: 760px) { .pillars { grid-template-columns: repeat(3, 1fr); } }
+.pillar { padding: 1.5rem; }
+.pillar__icon { display: grid; place-items: center; width: 3rem; height: 3rem; margin-bottom: 1rem; background: var(--peach); border-radius: 8px; color: var(--orange); }
+.pillar p { margin-top: .4rem; color: var(--muted); }

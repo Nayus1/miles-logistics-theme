@@ -1,0 +1,12 @@
+/*
+Theme Name: Miles Logistics
+Theme URI: https://github.com/nayus1/miles-logistics-theme
+Author: Yusuf Sodiq
+Description: Custom, hand-coded theme for Miles Logistics, a Nigerian dispatch and on-demand delivery business.
+Version: 1.0.0
+Requires at least: 6.3
+Requires PHP: 7.4
+Text Domain: miles-logistics
+*/
+
+/* WordPress only reads the header above. All styles live in assets/css/ so each page loads only what it needs. */

@@ -1,0 +1,13 @@
+/* Contact Us page */
+
+.contact-list { display: grid; gap: 1rem; }
+.contact-list li { display: flex; align-items: center; gap: .9rem; font: 500 1.0625rem/1.4 var(--font-body); }
+.contact-list a { text-decoration: none; transition: color .2s; }
+.contact-list a:hover { color: var(--orange); }
+.contact-list__icon { display: grid; place-items: center; flex: none; width: 2.5rem; height: 2.5rem; background: var(--peach); border: 1px solid #F7CDBD; border-radius: 6px; color: var(--orange); }
+
+.map { width: 100%; aspect-ratio: 1 / 1; border: 0; border-radius: 10px; box-shadow: var(--shadow-lg); }
+
+.form-section { display: grid; gap: 2rem; max-width: 52rem; }
+.form-section .stack { text-align: center; }
+.form-section .lead { margin-inline: auto; }
